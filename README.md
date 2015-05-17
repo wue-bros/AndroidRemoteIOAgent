@@ -19,15 +19,21 @@ Requirements
 How to Use
 ----------
 
+### Gestures
+
+* Click &rarr; Tap
+* Click & Drag &rarr; Swipe
+* Click & Hold &rarr; Long Press
+* Mouse Wheel &rarr; Swipe Up/Down
+* Keyboard &rarr; Text Input
+
 ### Options
 
-| Option                             | Description |
-| ---------------------------------- | ----------- |
-| ADB path                           | path to the `adb` executable in the Android SDK; default works if ADB is in your PATH |
-| Temporary file (device)            | where to store mirroring screenshots on your Android device; default should work for most devices |
-| Temporary file (client)            | where to store mirroring screenshots on the PC; defaults to the working directory |
-| Long press duration (milliseconds) | time your Android device needs to recognize a long press |
-| Scroll speed                       | how fast the mouse wheel scrolls on the Android device |
+* **ADB path** -- path to the `adb` executable in the Android SDK; default works if ADB is in your PATH
+* **Temporary file (device)** -- where to store mirroring screenshots on your Android device; default should work for most devices
+* **Temporary file (client)** -- where to store mirroring screenshots on the PC; defaults to the working directory
+* **Long press duration (milliseconds)** -- time your Android device needs to recognize a long press
+* **Scroll speed** -- how fast the mouse wheel scrolls on the Android device
 
 
 
