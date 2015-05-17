@@ -16,7 +16,7 @@ public class MainWindow extends JFrame {
     private final OptionsWindow optionsWindow;
 
     public MainWindow(Config config) throws HeadlessException {
-        super("AndroidRemoteIOAgent");
+        super("Android Remote I/O Agent");
 
         adb = new ADB(config);
 

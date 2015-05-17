@@ -13,7 +13,7 @@ import java.io.IOException;
 public class OptionsWindow extends JFrame {
 
     public OptionsWindow(final Config config) {
-        super("AndroidRemoteIOAgent Options");
+        super("Android Remote I/O Agent - Options");
 
         final JFileChooser chooser = new JFileChooser();
 

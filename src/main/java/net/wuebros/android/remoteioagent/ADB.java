@@ -88,7 +88,6 @@ public class ADB {
     public void sendTap(String deviceID, Point position) {
         try {
             exec(new String[]{"-s", deviceID, "shell", "input", "tap", String.valueOf(position.x), String.valueOf(position.y)}, null);
-            System.out.println("Sent tap at " + position.x + "x" + position.y);
         } catch (IOException | InterruptedException e) {
             return;
         }
@@ -96,8 +95,8 @@ public class ADB {
 
     public void sendSwipe(String deviceID, Point start, Point target, long duration) {
         try {
-            exec(new String[]{"-s", deviceID, "shell", "input", "touchscreen", "swipe", start.x + "", start.y + "", target.x + "", target.y + "", duration + ""}, null);
-            System.out.println("Sent swipe from " + start.x + "x" + start.y + " to " + target.x + "x" + target.y);
+            exec(new String[]{"-s", deviceID, "shell", "input", "touchscreen", "swipe",
+                    String.valueOf(start.x), String.valueOf(start.y), String.valueOf(target.x), String.valueOf(target.y), String.valueOf(duration)}, null);
         } catch (IOException | InterruptedException e) {
             return;
         }
