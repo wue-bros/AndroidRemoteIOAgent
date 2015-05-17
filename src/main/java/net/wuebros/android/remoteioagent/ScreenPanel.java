@@ -74,6 +74,11 @@ public class ScreenPanel extends JPanel {
 
             @Override
             public void mouseReleased(MouseEvent e) {
+                if (!hasFocus()) {
+                    requestFocus();
+                    return;
+                }
+
                 long timePressed = System.currentTimeMillis() - startPressTime;
                 String deviceID = (String) deviceSelector.getSelectedItem();
                 Point position = unproject(e.getPoint());
