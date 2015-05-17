@@ -7,8 +7,8 @@ This tool mirrors the screen of an Android device and allows interaction with it
 
 
 
-Requirements
-------------
+Prerequisites
+-------------
 
 * [Java 1.7+](http://java.com/download/)
 * [Android SDK](http://developer.android.com/sdk/installing/index.html)
