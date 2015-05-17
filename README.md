@@ -29,11 +29,11 @@ How to Use
 
 ### Options
 
-* **ADB path** -- path to the `adb` executable in the Android SDK; default works if ADB is in your PATH
-* **Temporary file (device)** -- where to store mirroring screenshots on your Android device; default should work for most devices
-* **Temporary file (client)** -- where to store mirroring screenshots on the PC; defaults to the working directory
-* **Long press duration (milliseconds)** -- time your Android device needs to recognize a long press
-* **Scroll speed** -- how fast the mouse wheel scrolls on the Android device
+* **ADB path** &mdash; path to the `adb` executable in the Android SDK; default works if ADB is in your PATH
+* **Temporary file (device)** &mdash; where to store mirroring screenshots on your Android device; default should work for most devices
+* **Temporary file (client)** &mdash; where to store mirroring screenshots on the PC; defaults to the working directory
+* **Long press duration (milliseconds)** &mdash; time your Android device needs to recognize a long press
+* **Scroll speed** &mdash; how fast the mouse wheel scrolls on the Android device
 
 
 
