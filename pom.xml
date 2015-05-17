@@ -11,7 +11,7 @@
 
     <groupId>net.wuebros.android.remoteioagent</groupId>
     <artifactId>AndroidRemoteIOAgent</artifactId>
-    <version>1.0</version>
+    <version>1.0.1</version>
 
     <build>
         <plugins>
