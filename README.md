@@ -10,7 +10,7 @@ Requirements
 
 * [Java 1.7+](http://java.com/download/)
 * [Android SDK](http://developer.android.com/sdk/installing/index.html)
-* [Download the latest version](https://github.com/wue-bros/AndroidRemoteIOAgent/releases) or build it from source
+* [Download the latest jar](https://github.com/wue-bros/AndroidRemoteIOAgent/releases) or build it from source
 
 
 
