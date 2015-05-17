@@ -3,6 +3,8 @@ Android Remote I/O Agent
 
 This tool mirrors the screen of a Android device and allows interaction with it. This can be especially useful when dealing with a broken screen.
 
+![Demo Screenshot](doc/demo.png)
+
 
 
 Requirements
