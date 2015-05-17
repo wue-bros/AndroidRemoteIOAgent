@@ -1,7 +1,7 @@
 Android Remote I/O Agent
 ========================
 
-This tool mirrors the screen of an Android device and allows interaction with it. This can be especially useful when dealing with a broken screen.
+This tool mirrors the screen of an Android device and allows interaction with it. This can be especially useful when dealing with a broken screen. Root should **not** be required.
 
 ![Demo Screenshot](doc/demo.png)
 
@@ -12,6 +12,7 @@ Requirements
 
 * [Java 1.7+](http://java.com/download/)
 * [Android SDK](http://developer.android.com/sdk/installing/index.html)
+* Enabled USB-Debugging. If you are unable to enable it using your options menu, try [this walkthrough](http://android.stackexchange.com/a/23928/42806).
 * [Download the latest jar](https://github.com/wue-bros/AndroidRemoteIOAgent/releases) or build it from source
 
 
